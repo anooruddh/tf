@@ -99,6 +99,6 @@ resource "aws_instance" "awsinstance" {
    associate_public_ip_address = true
    source_dest_check = false
   tags {
-    Name = "guddu-instance-1"
+    Name = "TF-instance-1"
   }
 }
